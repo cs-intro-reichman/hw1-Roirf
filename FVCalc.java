@@ -6,6 +6,6 @@ public class FVCalc {
 		int years = Integer.parseInt(args[2]);
 		double FV = saving * Math.pow((1 + rate / 100), years);
 		double FV1 = Math.round(FV);
-		System.out.println("After " + years + " years, your saving will grow to " + FV1 + " Shekels.");
+		System.out.println("After " + years + ", $" + saving + " saved at " + rate + "% will yield $" + FV1);
 	}
 }

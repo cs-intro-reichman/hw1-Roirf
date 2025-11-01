@@ -8,6 +8,6 @@ public class FVCalc {
 		double FV = saving * Math.pow((1 + rate / 100), years);
 		double FV1 = Math.round(FV);
 		int FV2 = (int)FV1;
-		System.out.println("After " + years + ", $" + saving1 + " saved at " + rate + "% will yield $" + FV2);
+		System.out.println("After " + years + " years, $" + saving1 + " saved at " + rate + "% will yield $" + FV2);
 	}
 }
